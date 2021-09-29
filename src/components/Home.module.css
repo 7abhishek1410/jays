@@ -1,0 +1,22 @@
+.img {
+  height: 113vh;
+  width: 35vw;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .img {
+    display: none;
+  }
+}
+@media screen and (min-width: 960px) {
+  .img_mobile {
+    display: none;
+  }
+}
+
+.img_mobile {
+  height: 50vh;
+  width: 65vw;
+}
