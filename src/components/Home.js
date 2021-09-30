@@ -18,7 +18,7 @@ function Home() {
         <div className="col-12 col-md-6 margin">
           <h1 className="fw-bold py-2 display-4">Jay's Jumble</h1>
           <div className="fs-5">
-          <p>The most useful newsletter on Internet 🧠</p>
+          <p classname="col-md-10">The most useful newsletter on Internet 🧠</p>
           <p>Bringing you the best of what the internet has to offer, weekly in
             your inbox!📩</p>
           </div>
