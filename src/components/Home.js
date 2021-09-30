@@ -15,17 +15,17 @@ function Home() {
           <img src={Jays_Mobile} alt="Jays" className={style.img_mobile}></img>
         </div>
         
-        <div className="col-12 col-md-6 margin ">
+        <div className="col-12 col-md-6 margin">
           <h1 className="fw-bold py-2 display-4">Jay's Jumble</h1>
-          <div>
+          <div className="fs-5">
           <p>The most useful newsletter on Internet 🧠</p>
           <p>Bringing you the best of what the internet has to offer, weekly in
             your inbox!📩</p>
           </div>
 
          <div className="py-0">
-         <h4 className="fw-bold">What to Expect?</h4>
-          <ul>
+         <h4 className="fw-bold fs-2">What to Expect?</h4>
+          <ul className="fs-5">
             <li>5 Tech Tools</li>
             <li>A Finance Tip</li>
             <li>A Productivity Hack</li>
