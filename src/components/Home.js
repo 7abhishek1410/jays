@@ -1,17 +1,20 @@
 import React from "react";
-import Jays from "../img/Jays.png"
+import Jay_de from "../img/Jay_de.jpeg"
 import style from "./Home.module.css"
 import Jays_Mobile from "../img/Jays_Mobile.png"
+import "../App.css"
+
+
 
 
 function Home() {
   return (
       <div className="container-fluid">
-      <div className="row bg-light">
-      <div className="col-12 d-grid">
+      <div className="row " >
+      <div className="col-12 padding" style={{paddingLeft:"0px !important"}}>
           <img src={Jays_Mobile} alt="Jays" className={style.img_mobile}></img>
         </div>
-        <div className="col-12 col-md-6 mt-3 mx-4">
+        <div className="col-12 col-md-6 mt-3 mx-4 margin ">
           <h1 className="fw-bold py-2 display-4">Jay's Jumble</h1>
           <div>
           <p>The most useful newsletter on Internet.</p>
@@ -30,27 +33,27 @@ function Home() {
             <li>And the unexpected 😉</li>
           </ul>
          </div>
-
-          <div className="form-group mb-4">
+          <div className="d-flex flex-column align-items-center justify-content-center">
+          <div className="form-group mb-4 w-75">
             <label htmlFor="email"></label>
             <input
               type="email"
               name="email"
               placeholder="Enter Your Email"
-              className="form-control  w-50"
+              className="form-control w-100"
             />
           </div>
 
-         <div className="gap-3">
+         <div className="gap-3 w-75">
 
          <button
-            className="btn rounded-pill text-light w-50"
+            className="btn rounded-pill text-light w-100"
             style={{ backgroundColor: "black"}}
           >
             Subscribe
           </button>
         
-          <div className="mt-1 w-50 d-flex align-items-center justify-content-center">
+          <div className="mt-1 w-100 d-flex align-items-center justify-content-center">
          <a href="/" style={{color:"black"}}  className="mx-2">
               <i className="fab fa-twitter h2" ></i>
             </a>
@@ -63,17 +66,17 @@ function Home() {
          </div>
 
          <button
-            className="btn rounded-pill text-light mb-5 w-50"
+            className="btn rounded-pill text-light mb-5 w-100"
             style={{ backgroundColor: "orange"}}
           >
             Read old Articles
           </button>
          </div>
-         
+         </div>
         </div>
-        <div className="col-12 col-md-1"></div>
+        {/* <div className="col-12 col-md-1"></div> */}
         <div className="col-12 col-md-4">
-          <img src={Jays} alt="Jays" className={style.img}></img>
+          <img src={Jay_de} alt="Jays" className={style.img}></img>
         </div>
       </div>
     </div>
