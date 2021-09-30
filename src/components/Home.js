@@ -15,7 +15,7 @@ function Home() {
           <img src={Jays_Mobile} alt="Jays" className={style.img_mobile}></img>
         </div>
         
-        <div className="col-12 col-md-6 col-4-xxl margin">
+        <div className="col-12 col-md-6 margin">
           <h1 className="fw-bold py-2 display-4">Jay's Jumble</h1>
           <div className="fs-5">
           <p >The most useful newsletter on Internet 🧠</p>
