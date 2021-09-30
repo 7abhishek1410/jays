@@ -17,6 +17,6 @@
 }
 
 .img_mobile {
-  height: 50vh;
-  width: 65vw;
+  height: auto;
+  width: 100vw;
 }

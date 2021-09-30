@@ -4,12 +4,13 @@ import style from "./Home.module.css"
 import Jays_Mobile from "../img/Jays_Mobile.png"
 
 
-
-
 function Home() {
   return (
-    <div className="container-fluid">
+      <div className="container-fluid">
       <div className="row bg-light">
+      <div className="col-12 d-grid">
+          <img src={Jays_Mobile} alt="Jays" className={style.img_mobile}></img>
+        </div>
         <div className="col-12 col-md-6 mt-3 mx-4">
           <h1 className="fw-bold py-2 display-4">Jay's Jumble</h1>
           <div>
@@ -36,11 +37,11 @@ function Home() {
               type="email"
               name="email"
               placeholder="Enter Your Email"
-              className="form-control text-center w-50"
+              className="form-control  w-50"
             />
           </div>
 
-         <div className="gap-1">
+         <div className="gap-3">
 
          <button
             className="btn rounded-pill text-light w-50"
@@ -49,12 +50,12 @@ function Home() {
             Subscribe
           </button>
         
-          <div className="mt-1 ms-5">
+          <div className="mt-1 w-50 d-flex align-items-center justify-content-center">
          <a href="/" style={{color:"black"}}  className="mx-2">
-              <i className="fab fa-twitter h2 " ></i>
+              <i className="fab fa-twitter h2" ></i>
             </a>
          <a href="/" style={{color:"black"}} className="mx-2">
-              <i className="fab fa-youtube h2"></i>
+              <i className="fab fa-instagram h2"></i>
             </a>
          <a href="/" style={{color:"black"}}  className="mx-2" >
               <i className="fab fa-facebook h2"></i>
@@ -70,16 +71,13 @@ function Home() {
          </div>
          
         </div>
-        <div className="col-12 col-md-1 "></div>
+        <div className="col-12 col-md-1"></div>
         <div className="col-12 col-md-4">
           <img src={Jays} alt="Jays" className={style.img}></img>
-        </div>
-        <div className="col-12">
-          <img src={Jays_Mobile} alt="Jays" className={style.img_mobile}></img>
         </div>
       </div>
     </div>
   );
-}
+} 
 
 export default Home;
