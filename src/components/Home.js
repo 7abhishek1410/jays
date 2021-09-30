@@ -1,5 +1,5 @@
 import React from "react";
-import Jays from "../img/Jays.png"
+import JayJ from "../img/JayJ.png"
 import style from "./Home.module.css"
 import Jays_Mobile from "../img/Jays_Mobile.png"
 import "../App.css"
@@ -83,7 +83,7 @@ function Home() {
         
         {/* <div className="col-12 col-md-1"></div> */}
         <div className="col-12 col-md-4 w-50 d-flex justify-content-end px-0">
-          <img src={Jays} alt="Jays" className={style.img}></img>
+          <img src={JayJ} alt="Jays" className={style.img}></img>
         </div>
       </div>
     </div>
