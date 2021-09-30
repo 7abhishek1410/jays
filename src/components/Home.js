@@ -47,37 +47,42 @@ function Home() {
 
          <div className="gap-3 w-75">
 
-         <button
+         
+          <button
             className="btn rounded-pill text-light w-100"
             style={{ backgroundColor: "black"}}
+      
           >
             Subscribe
           </button>
+           
         
           <div className="mt-1 w-100 d-flex align-items-center justify-content-center">
-         <a href="/" style={{color:"black"}}  className="mx-2">
+         <a href="https://twitter.com/Jaykapoor24?s=09" style={{color:"black"}}  className="mx-2">
               <i className="fab fa-twitter h2" ></i>
             </a>
-         <a href="/" style={{color:"black"}} className="mx-2">
+         <a href="https://instagram.com/jaykapoor.24?utm_medium=copy_link" style={{color:"black"}} className="mx-2">
               <i className="fab fa-instagram h2"></i>
             </a>
-         <a href="/" style={{color:"black"}}  className="mx-2" >
-              <i className="fab fa-facebook h2"></i>
+         <a href="https://youtube.com/c/JayKapoor24" style={{color:"black"}}  className="mx-2" >
+              <i className="fab fa-youtube h2"></i>
             </a>
          </div>
-
+        
+         <a href="https://jaykapoor24.substack.com/">
          <button
             className="btn rounded-pill text-light mb-5 w-100"
             style={{ backgroundColor: "orange"}}
           >
             Read old Articles
           </button>
+          </a>
          </div>
          </div>
         </div>
         
         {/* <div className="col-12 col-md-1"></div> */}
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-md-4 w-50">
           <img src={Jay_de} alt="Jays" className={style.img}></img>
         </div>
       </div>
