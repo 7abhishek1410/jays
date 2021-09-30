@@ -4,6 +4,6 @@
 .margin {
   margin: 0px !important;
   background-image: url(./img/Group\ 10242.png);
-  background-size: cover;
-  background-position-x: right;
+  /* background-size: cover; */
+  /* background-position-x: right; */
 }
