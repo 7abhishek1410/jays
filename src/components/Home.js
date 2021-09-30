@@ -14,7 +14,8 @@ function Home() {
       <div className="col-12 padding" style={{paddingLeft:"0px !important"}}>
           <img src={Jays_Mobile} alt="Jays" className={style.img_mobile}></img>
         </div>
-        <div className="col-12 col-md-6 mt-3 mx-4 margin ">
+        
+        <div className="col-12 col-md-6 margin ">
           <h1 className="fw-bold py-2 display-4">Jay's Jumble</h1>
           <div>
           <p>The most useful newsletter on Internet.</p>
@@ -74,6 +75,7 @@ function Home() {
          </div>
          </div>
         </div>
+        
         {/* <div className="col-12 col-md-1"></div> */}
         <div className="col-12 col-md-4">
           <img src={Jay_de} alt="Jays" className={style.img}></img>
