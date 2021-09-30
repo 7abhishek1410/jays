@@ -1,5 +1,5 @@
 import React from "react";
-import Jay_de from "../img/Jay_de.jpeg"
+import Jays from "../img/Jays.png"
 import style from "./Home.module.css"
 import Jays_Mobile from "../img/Jays_Mobile.png"
 import "../App.css"
@@ -18,7 +18,7 @@ function Home() {
         <div className="col-12 col-md-6 margin ">
           <h1 className="fw-bold py-2 display-4">Jay's Jumble</h1>
           <div>
-          <p>The most useful newsletter on Internet.</p>
+          <p>The most useful newsletter on Internet 🧠</p>
           <p>Bringing you the best of what the internet has to offer, weekly in
             your inbox!📩</p>
           </div>
@@ -82,8 +82,8 @@ function Home() {
         </div>
         
         {/* <div className="col-12 col-md-1"></div> */}
-        <div className="col-12 col-md-4 w-50">
-          <img src={Jay_de} alt="Jays" className={style.img}></img>
+        <div className="col-12 col-md-4 w-50 d-flex justify-content-end px-0">
+          <img src={Jays} alt="Jays" className={style.img}></img>
         </div>
       </div>
     </div>
