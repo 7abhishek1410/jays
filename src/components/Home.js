@@ -45,7 +45,7 @@ function Home() {
             />
           </div>
 
-         <div className="gap-3 w-75">
+         <div className="gap-5 w-75">
 
          
           <button
@@ -58,13 +58,13 @@ function Home() {
            
         
           <div className="mt-1 w-100 d-flex align-items-center justify-content-center">
-         <a href="https://twitter.com/Jaykapoor24?s=09" style={{color:"black"}}  className="mx-2">
+         <a href="https://twitter.com/Jaykapoor24?s=09" style={{color:"black"}}  className="mx-3">
               <i className="fab fa-twitter h2" ></i>
             </a>
-         <a href="https://instagram.com/jaykapoor.24?utm_medium=copy_link" style={{color:"black"}} className="mx-2">
+         <a href="https://instagram.com/jaykapoor.24?utm_medium=copy_link" style={{color:"black"}} className="mx-3">
               <i className="fab fa-instagram h2"></i>
             </a>
-         <a href="https://youtube.com/c/JayKapoor24" style={{color:"black"}}  className="mx-2" >
+         <a href="https://youtube.com/c/JayKapoor24" style={{color:"black"}}  className="mx-3" >
               <i className="fab fa-youtube h2"></i>
             </a>
          </div>
